@@ -1,0 +1,10 @@
+# Ignore all files in scratch/ directory
+# This keeps active work-in-progress notes ephemeral
+*
+
+# Allow this .gitignore file itself to be committed
+!.gitignore
+
+# Allow README or template files to be committed (if added)
+!README.md
+!*.template.md
